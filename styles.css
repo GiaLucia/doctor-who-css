@@ -1,25 +1,12 @@
-body {
-	background-image: url(images/star-background.jpg);
-	margin: 0px;
-	padding: 0px;
-}
-.wrapper {
-	background-color: #A69F8A;
-	width: 950px;
-	border-top-width: 10px;
-	border-right-width: 2px;
-	border-bottom-width: 10px;
-	border-left-width: 2px;
-	border-top-style: solid;
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-left-style: solid;
-	border-top-color: #F2F2F2;
-	border-right-color: #F2F2F2;
-	border-bottom-color: #F2F2F2;
-	border-left-color: #F2F2F2;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: auto;
-	margin-left: auto;
-}
+body { background: url(images/star-background.jpg); margin: 0px; padding: 0px; }
+
+.wrapper { background: #A69F8A; width: 950px; border-top: 10px solid #F2F2F2; border-right: 2px solid #F2F2F2; border-bottom: 10px solid #F2F2F2; border-left: 2px solid #F2F2F2; margin: 10px auto; }
+
+.navigation { margin: 20px 0px 20px 10px; padding: 0px; }
+.navigation li a:hover { color: #F2F2F2; background: #222940; }
+
+
+.navigation li { display: inline; }
+
+.navigation li a { background: #F2F2F2;
+padding: 10px 30px; margin-right: 40px; border: 2px solid #222940; color: #222940; text-decoration: none; }
